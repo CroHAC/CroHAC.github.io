@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Shengcheng Yu",
+    "homepage": "https://www.seysc.com/index.html",
+    "image_source": "https://www.seysc.com/YSC.jpg",
+    "resolved_image_source": "https://www.seysc.com/YSC.jpg",
+    "local_file": "assets/chairs/shengcheng-yu.jpg",
+    "retrieved_on": "2026-10-13",
+    "sha256": "a0b7cf72fc3302c7272dbb7044265a665c712dfd8095a1e779322de57f15348b",
+    "bytes": 1700385,
+    "source_sha256": "081fdb262e773235d1ca39f7980a4618a470b01147f7c620cdce8b94d06162a5",
+    "source_bytes": 1722884,
+    "metadata_removed": true
+  },
+  {
+    "name": "Chunrong Fang",
+    "homepage": "https://chunrong.github.io/",
+    "image_source": "https://chunrong.github.io/fcr.jpg",
+    "resolved_image_source": "https://chunrong.github.io/fcr.jpg",
+    "local_file": "assets/chairs/chunrong-fang.jpg",
+    "retrieved_on": "2026-10-13",
+    "sha256": "a0e5100387491fbc473a6ffaa8db15540e9cf368a3ba07f72107659f83cf0736",
+    "bytes": 155248,
+    "source_sha256": "b20538ef0fce1caeb676a793676c1fc1318d7786139f8188f15b6b28aecab258",
+    "source_bytes": 174249,
+    "metadata_removed": true
+  },
+  {
+    "name": "Zhou Yang",
+    "homepage": "https://homepage.zhouyang.me/",
+    "image_source": "https://homepage.zhouyang.me/Files/protrait.jpeg",
+    "resolved_image_source": "https://homepage.zhouyang.me/Files/protrait.jpeg",
+    "local_file": "assets/chairs/zhou-yang.jpg",
+    "retrieved_on": "2026-10-13",
+    "sha256": "2128c1e19112ba8c81f2b7a5bae184f5d4c0c29b96beb60ff5219df3a48d10d6",
+    "bytes": 42004,
+    "source_sha256": "3df4bab98e2a9ac6f1b9b0da53f84293d88cfbf7223adcb2557b828057aa4ff8",
+    "source_bytes": 45864,
+    "metadata_removed": true
+  },
+  {
+    "name": "Shaohua Li",
+    "homepage": "https://shao-hua-li.github.io/",
+    "image_source": "https://shao-hua-li.github.io/assets/img/pic.jpg",
+    "resolved_image_source": "https://shao-hua-li.github.io/assets/img/pic.jpg",
+    "local_file": "assets/chairs/shaohua-li.jpg",
+    "retrieved_on": "2026-10-13",
+    "sha256": "00901de43504c3582cfae3923008490461cd2d7a61bc01e6e117559212fcd8c7",
+    "bytes": 484974,
+    "source_sha256": "67b1630f2b3a1b2034ac31a60176378e60152ab0f4e5991552716e24109a9591",
+    "source_bytes": 490836,
+    "metadata_removed": true
+  },
+  {
+    "name": "Zhenyu Chen",
+    "homepage": "https://software.nju.edu.cn/zychen/",
+    "image_source": "https://software.nju.edu.cn/DFS//file/2021/06/08/20210608223031817vnik66.jpg?iid=39470",
+    "resolved_image_source": "https://software.nju.edu.cn/DFS//file/2021/06/08/20210608223031817vnik66.jpg?iid=39470",
+    "local_file": "assets/chairs/zhenyu-chen.jpg",
+    "retrieved_on": "2026-10-13",
+    "sha256": "fa56e0811664338dd6438d8cda51e574fedcd8a59a2cdb353fd1e3b4ede20e5e",
+    "bytes": 95439,
+    "source_sha256": "2ff4a98cb26a0c00fe1cede1eb18d31405f34e1c80f3ed42bd18308cc4d7d9e0",
+    "source_bytes": 100625,
+    "metadata_removed": true
+  }
+]

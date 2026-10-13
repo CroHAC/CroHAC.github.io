@@ -3,31 +3,133 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="CroHAC workshop website. Workshop details will be announced here.">
+    <meta name="description" content="CroHAC brings together researchers and practitioners to study collective mechanisms and emergent intelligence in human-agent software engineering.">
+    <meta name="theme-color" content="#126563">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CroHAC: Crowd-based Human-Agent Collaborative Software Engineering">
+    <meta property="og:description" content="The 1st International Workshop on Crowd-based Human-Agent Collaborative Software Engineering.">
+    <meta property="og:url" content="https://crohac.github.io/">
     <link rel="canonical" href="https://crohac.github.io/">
-    <title>CroHAC</title>
-    <style>
-      :root { color-scheme: light; }
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        background: #f7f7f4;
-        color: #202b2c;
-        font: 1.125rem/1.65 system-ui, sans-serif;
-      }
-      main { max-width: 48rem; margin: 0 auto; padding: clamp(4rem, 12vw, 9rem) 1.5rem; }
-      h1 { margin: 0 0 1.5rem; font-size: clamp(3rem, 10vw, 5rem); line-height: 1.1; letter-spacing: -0.04em; }
-      p { max-width: 36rem; }
-      a { color: #126563; text-underline-offset: 0.2em; }
-      a:hover { color: #093e3c; }
-      a:focus-visible { outline: 3px solid #126563; outline-offset: 5px; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>CroHAC | Crowd-based Human-Agent Collaborative Software Engineering</title>
   </head>
   <body>
-    <main>
-      <h1>CroHAC</h1>
-      <p>Workshop details will be announced here.</p>
-      <p><a href="https://github.com/CroHAC/CroHAC.github.io">Website repository</a></p>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="CroHAC home">CroHAC</a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#topics">Topics</a>
+          <a href="#chairs">Chairs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" id="top" aria-labelledby="workshop-name">
+        <p class="workshop-edition">1st International Workshop</p>
+        <h1 id="workshop-name">CroHAC</h1>
+        <p class="workshop-title">Crowd-based Human-Agent Collaborative Software Engineering</p>
+        <p class="hero-summary">Studying how diverse human and agent contributions become collective capabilities in software engineering.</p>
+      </section>
+
+      <section class="section container" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About the workshop</h2>
+        <p class="research-question">How can the design of collective mechanisms promote the emergence of collective intelligence in software engineering?</p>
+        <div class="about-copy">
+          <p>CroHAC examines the rules that shape heterogeneous human-agent collectives: participant composition, task and contribution structure, information flows, incentives, aggregation, and feedback. It studies how complementary human knowledge and agent capabilities can produce collective problem-solving, judgment, and error correction.</p>
+          <div>
+            <p>A crowd is a distributed pool of contributors recruited through an open call or a participatory platform. The workshop connects this perspective with software engineering problems and the evaluation of collective mechanisms.</p>
+            <p>It brings together researchers, practitioners, tool builders, and students in software engineering, crowdsourcing, collective intelligence, human-computer interaction, and AI to develop evaluation principles and a shared research roadmap.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="topics" aria-labelledby="topics-title">
+        <h2 id="topics-title">Research themes</h2>
+        <p class="section-intro">Three connected areas structure the agenda across software development and testing.</p>
+        <div class="themes">
+          <article class="theme">
+            <h3>Composition and contribution</h3>
+            <p>Diversity and complementary expertise, crowd recruitment, incentives, participation rules, and the decomposition and recombination of software tasks and artifacts.</p>
+          </article>
+          <article class="theme">
+            <h3>Information and aggregation</h3>
+            <p>Information sharing, independence of judgments, preservation of disagreement and minority contributions, evidence aggregation, and collective review, testing, and error correction.</p>
+          </article>
+          <article class="theme">
+            <h3>Feedback and evaluation</h3>
+            <p>Adaptive feedback, learning in human-agent collectives, benchmarks and measures of collective gain, mechanism ablation, resource-aware evaluation, governance, and accountability.</p>
+          </article>
+        </div>
+        <div class="scope">
+          <h3>Across the software lifecycle</h3>
+          <p>Requirements, design, implementation, code review, verification, test generation, debugging, maintenance, and evolution.</p>
+        </div>
+        <aside class="evaluation" aria-labelledby="evaluation-title">
+          <h3 id="evaluation-title">Evaluating collective gain</h3>
+          <p>Comparisons should use the same actors and resource budgets under alternative mechanisms, with individual, human-only, and agent-only baselines. Mechanism ablation helps identify which choices contribute to correctness, coverage, discovery, and robustness.</p>
+        </aside>
+      </section>
+
+      <section class="section container" id="chairs" aria-labelledby="chairs-title">
+        <h2 id="chairs-title">Organizing chairs</h2>
+        <div class="chairs-grid">
+          <article class="chair chair--shengcheng">
+            <div class="chair-portrait">
+              <img src="assets/chairs/shengcheng-yu.jpg" alt="Shengcheng Yu" width="1535" height="2126" loading="lazy" decoding="async">
+            </div>
+            <h3><a href="https://www.seysc.com/index.html">Shengcheng Yu</a></h3>
+            <p class="chair-affiliation">Technical University of Munich</p>
+            <p class="chair-expertise">Crowdsourced testing, human-agent collaboration, and GUI automation.</p>
+          </article>
+          <article class="chair">
+            <div class="chair-portrait">
+              <img src="assets/chairs/chunrong-fang.jpg" alt="Chunrong Fang" width="602" height="602" loading="lazy" decoding="async">
+            </div>
+            <h3><a href="https://chunrong.github.io/">Chunrong Fang</a></h3>
+            <p class="chair-affiliation">Nanjing University</p>
+            <p class="chair-expertise">Software testing and quality assurance of AI-enabled systems.</p>
+          </article>
+          <article class="chair">
+            <div class="chair-portrait">
+              <img src="assets/chairs/zhou-yang.jpg" alt="Zhou Yang" width="400" height="400" loading="lazy" decoding="async">
+            </div>
+            <h3><a href="https://homepage.zhouyang.me/">Zhou Yang</a></h3>
+            <p class="chair-affiliation">University of Alberta</p>
+            <p class="chair-expertise">Trustworthy code language models, including robustness, security, and privacy.</p>
+          </article>
+          <article class="chair chair--shaohua">
+            <div class="chair-portrait">
+              <img src="assets/chairs/shaohua-li.jpg" alt="Shaohua Li" width="1176" height="1213" loading="lazy" decoding="async">
+            </div>
+            <h3><a href="https://shao-hua-li.github.io/">Shaohua Li</a></h3>
+            <p class="chair-affiliation">The Chinese University of Hong Kong</p>
+            <p class="chair-expertise">Reliability and performance of software infrastructure, compilers, and AI systems.</p>
+          </article>
+          <article class="chair chair--zhenyu">
+            <div class="chair-portrait">
+              <img src="assets/chairs/zhenyu-chen.jpg" alt="Zhenyu Chen" width="567" height="739" loading="lazy" decoding="async">
+            </div>
+            <h3><a href="https://software.nju.edu.cn/zychen/">Zhenyu Chen</a></h3>
+            <p class="chair-affiliation">Nanjing University</p>
+            <p class="chair-expertise">Intelligent software engineering, crowdsourced testing, and industry-academia collaboration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact container" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>For enquiries about CroHAC, please contact Shengcheng Yu.</p>
+        <a class="contact-email" href="mailto:shengcheng.yu@tum.de">shengcheng.yu@tum.de</a>
+      </section>
     </main>
+
+    <footer class="site-footer container">
+      <p>CroHAC</p>
+      <a href="https://github.com/CroHAC/CroHAC.github.io">Website repository</a>
+    </footer>
   </body>
 </html>
