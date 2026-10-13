@@ -2,9 +2,9 @@ CroHAC 网站源码，通过 GitHub Pages 发布，网站为 [crohac.github.io](
 
 这是一个无需构建步骤的静态网站，内容入口为 `index.html`，样式为 `styles.css`。`.nojekyll` 让 GitHub Pages 直接发布静态文件。
 
-网站根据最新 FSE 提案整理名称、简介、研究主题、五位 organizing chairs 和主要联系人。暂定 PC、Proceedings Chair、会议归属与具体日期、投稿规则及入口等尚待确认的内容暂不发布。
+网站根据最新 FSE 提案整理名称、简介、研究主题、五位 organizing chairs、Proceedings Chair 和主要联系人。Program committee、日期和投稿入口使用标注为 tentative 的 TBA 占位符；确认后可逐项替换。联系方式按用户指定形式显示为 `shengcheng[.]yu[@]tum[.]de`。
 
-Chairs 照片分别取自各人的个人主页，保存在 `assets/chairs/`；个人主页、图片来源和文件校验值记录在 `assets/chairs/sources.json`。姓名链接指向对应个人主页。
+Organizing chairs 和 Proceedings Chair 的照片分别取自各人的个人主页，保存在 `assets/chairs/`；个人主页、图片来源和文件校验值记录在 `assets/chairs/sources.json`。姓名链接指向对应个人主页。
 
 发布源使用 `main` 分支的根目录。初始化后，修改网页并推送到 `main`，GitHub Pages 会自动更新网站。
 

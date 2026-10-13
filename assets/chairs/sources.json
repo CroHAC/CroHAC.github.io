@@ -63,5 +63,19 @@
     "source_sha256": "2ff4a98cb26a0c00fe1cede1eb18d31405f34e1c80f3ed42bd18308cc4d7d9e0",
     "source_bytes": 100625,
     "metadata_removed": true
+  },
+  {
+    "name": "Yuchen Ling",
+    "role": "Proceedings Chair",
+    "homepage": "https://ling-yuchen.github.io/",
+    "image_source": "https://ling-yuchen.github.io/image/avatar.jpg",
+    "resolved_image_source": "https://ling-yuchen.github.io/image/avatar.jpg",
+    "local_file": "assets/chairs/yuchen-ling.jpg",
+    "retrieved_on": "2026-10-13",
+    "source_sha256": "eaf5286a3c4cbdb4c26e7fedbd259fb22087ce3d221d1a504408e7b00c666a78",
+    "source_bytes": 581168,
+    "sha256": "70c459cdf4f8523378d0e510e0f9415bebbb2dddbfce781e1d5cec34c34c3669",
+    "bytes": 580980,
+    "metadata_removed": true
   }
 ]
